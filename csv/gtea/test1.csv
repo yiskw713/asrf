@@ -1,0 +1,8 @@
+feature,label,boundary
+./dataset/gtea/features/S1_Cheese_C1.npy,./dataset/gtea/gt_arr/S1_Cheese_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Cheese_C1.npy
+./dataset/gtea/features/S1_CofHoney_C1.npy,./dataset/gtea/gt_arr/S1_CofHoney_C1.npy,./dataset/gtea/gt_boundary_arr/S1_CofHoney_C1.npy
+./dataset/gtea/features/S1_Coffee_C1.npy,./dataset/gtea/gt_arr/S1_Coffee_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Coffee_C1.npy
+./dataset/gtea/features/S1_Hotdog_C1.npy,./dataset/gtea/gt_arr/S1_Hotdog_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Hotdog_C1.npy
+./dataset/gtea/features/S1_Pealate_C1.npy,./dataset/gtea/gt_arr/S1_Pealate_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Pealate_C1.npy
+./dataset/gtea/features/S1_Peanut_C1.npy,./dataset/gtea/gt_arr/S1_Peanut_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Peanut_C1.npy
+./dataset/gtea/features/S1_Tea_C1.npy,./dataset/gtea/gt_arr/S1_Tea_C1.npy,./dataset/gtea/gt_boundary_arr/S1_Tea_C1.npy

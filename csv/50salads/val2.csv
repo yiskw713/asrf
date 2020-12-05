@@ -1,0 +1,5 @@
+feature,label,boundary
+./dataset/50salads/features/rgb-05-2.npy,./dataset/50salads/gt_arr/rgb-05-2.npy,./dataset/50salads/gt_boundary_arr/rgb-05-2.npy
+./dataset/50salads/features/rgb-17-2.npy,./dataset/50salads/gt_arr/rgb-17-2.npy,./dataset/50salads/gt_boundary_arr/rgb-17-2.npy
+./dataset/50salads/features/rgb-22-2.npy,./dataset/50salads/gt_arr/rgb-22-2.npy,./dataset/50salads/gt_boundary_arr/rgb-22-2.npy
+./dataset/50salads/features/rgb-27-2.npy,./dataset/50salads/gt_arr/rgb-27-2.npy,./dataset/50salads/gt_boundary_arr/rgb-27-2.npy

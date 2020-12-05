@@ -1,0 +1,3 @@
+feature,label,boundary
+./dataset/gtea/features/S2_Coffee_C1.npy,./dataset/gtea/gt_arr/S2_Coffee_C1.npy,./dataset/gtea/gt_boundary_arr/S2_Coffee_C1.npy
+./dataset/gtea/features/S3_Peanut_C1.npy,./dataset/gtea/gt_arr/S3_Peanut_C1.npy,./dataset/gtea/gt_boundary_arr/S3_Peanut_C1.npy

@@ -1,0 +1,11 @@
+feature,label,boundary
+./dataset/50salads/features/rgb-06-1.npy,./dataset/50salads/gt_arr/rgb-06-1.npy,./dataset/50salads/gt_boundary_arr/rgb-06-1.npy
+./dataset/50salads/features/rgb-06-2.npy,./dataset/50salads/gt_arr/rgb-06-2.npy,./dataset/50salads/gt_boundary_arr/rgb-06-2.npy
+./dataset/50salads/features/rgb-07-1.npy,./dataset/50salads/gt_arr/rgb-07-1.npy,./dataset/50salads/gt_boundary_arr/rgb-07-1.npy
+./dataset/50salads/features/rgb-07-2.npy,./dataset/50salads/gt_arr/rgb-07-2.npy,./dataset/50salads/gt_boundary_arr/rgb-07-2.npy
+./dataset/50salads/features/rgb-09-1.npy,./dataset/50salads/gt_arr/rgb-09-1.npy,./dataset/50salads/gt_boundary_arr/rgb-09-1.npy
+./dataset/50salads/features/rgb-09-2.npy,./dataset/50salads/gt_arr/rgb-09-2.npy,./dataset/50salads/gt_boundary_arr/rgb-09-2.npy
+./dataset/50salads/features/rgb-10-1.npy,./dataset/50salads/gt_arr/rgb-10-1.npy,./dataset/50salads/gt_boundary_arr/rgb-10-1.npy
+./dataset/50salads/features/rgb-10-2.npy,./dataset/50salads/gt_arr/rgb-10-2.npy,./dataset/50salads/gt_boundary_arr/rgb-10-2.npy
+./dataset/50salads/features/rgb-11-1.npy,./dataset/50salads/gt_arr/rgb-11-1.npy,./dataset/50salads/gt_boundary_arr/rgb-11-1.npy
+./dataset/50salads/features/rgb-11-2.npy,./dataset/50salads/gt_arr/rgb-11-2.npy,./dataset/50salads/gt_boundary_arr/rgb-11-2.npy
