@@ -82,8 +82,8 @@ Please run the following command. `[DATASET_DIR]` is the path to your dataset di
 
     ```bash
     python utils/make_config.py --root_dir ./result/50salads --dataset 50salads --split 1 2 3 4 5
-    python utils/make_config.py --root_dir ./result/gtea --dataset gtea --split 1 2 3 4 5
-    python utils/make_config.py --root_dir ./result/breakfast --dataset breakfast --split 1 2 3 4 5
+    python utils/make_config.py --root_dir ./result/gtea --dataset gtea --split 1 2 3 4
+    python utils/make_config.py --root_dir ./result/breakfast --dataset breakfast --split 1 2 3 4
     ```
 
     If you want to add other configurations, please add command-line options like:
