@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alleviating Over-segmentation Errors by Detecting Action Boundaries</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+
+    <!-- ress.css -->
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+</head>
+
+<body>
+    <style>
+        .link {
+            color: #DE382D;
+            text-decoration: underline
+        }
+    </style>
+
+    <div class="container">
+        <h1 class="mx-auto text-center mt-4">
+            <b>Alleviating Over-segmentation Errors
+                by Detecting Action Boundaries</b>
+        </h1>
+
+        <img src="./imgs/asrf.png" class="mx-auto d-block mt-5" style="width: 75%;">
+
+        <h2 class="mt-5">Abstract</h2>
+        <p>
+            We propose an effective framework for the temporal action segmentation task, namely an Action Segment
+            Refinement
+            Framework (ASRF).
+            Our model architecture consists of a long-term feature extractor and two branches:
+            the Action Segmentation Branch (ASB) and the Boundary Regression Branch (BRB).
+            The long-term feature extractor provides shared features for the two branches with a wide temporal receptive
+            field.
+            The ASB classifies video frames with action classes, while the BRB regresses the action boundary
+            probabilities.
+            The action boundaries predicted by the BRB refine the output from the ASB, which results in a significant
+            performance improvement.
+            Our contributions are three-fold:
+            (i) We propose a framework for temporal action segmentation, the ASRF,
+            which divides temporal action segmentation into frame-wise action classification and action
+            boundary regression. Our framework refines frame-level hypotheses of action classes using predicted action
+            boundaries.
+            (ii) We propose a loss function for smoothing the transition of action probabilities, and analyze
+            combinations
+            of various loss functions for temporal action segmentation.
+            (iii) Our framework outperforms state-of-the-art methods on three challenging datasets, offering an
+            improvement
+            of up to 13.7% in terms of segmental edit distance and up to 16.1% in terms of segmental F1 score.
+            Our code will be publicly available soon.
+        </p>
+
+        <h2 class="mt-5">Result</h2>
+        <img src="./imgs/quantitive.png" class="mx-auto d-block mt-4" style="width: 100%;">
+        <p class="mt-3">
+            Qualitative results using (a) 50 Salads, (b) GTEA and (c) Breakfast dataset in comparison with predictions
+            before refinement. (d) Failure example on Breakfast dataset.
+            Our ASRF is superior to the state-of-the-art by a large margin. Please see our paper for the details.
+        </p>
+
+        <!-- <h2 class="mt-5">Video</h2> -->
+        <!-- <p class=""> -->
+        <!-- Coming Soon. -->
+        <!-- </p> -->
+
+        <h2 class="mt-5">Reference</h2>
+        <div class="mb-5">
+            <a href="https://yiskw713.github.io/">Yuchi Ishikawa</a>,
+            <a href="https://skasai5296.github.io/">Seito Kasai</a>,
+            <a href="https://www.st.keio.ac.jp/en/tprofile/elec/aoki.html">Yoshimitsu Aoki</a>,
+            <a href="http://hirokatsukataoka.net/">Hirokatsu Kataoka</a>
+            <br>
+            <b>Alleviating Over-segmentation Errors by Detecting Action Boundaries</b>
+            <br>In WACV2021<br>
+            <p class="mt-2">
+                <a href="https://arxiv.org/abs/2007.06866" target="_blank" class="badge badge-info font-weight-normal"
+                    target="_blank" style="font-size: 12pt;">arXiv</a>
+                &nbsp;&nbsp;
+                <a href="https://github.com/yiskw713/asrf" target="_blank" class="badge badge-info font-weight-normal"
+                    target="_blank" style="font-size: 12pt;">code</a>
+                &nbsp;&nbsp;
+                <a href="bibtex.bib" target="_blank" class="badge badge-info font-weight-normal"
+                    style="font-size: 12pt;">bibtex</a>
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>
