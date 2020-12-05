@@ -10,8 +10,8 @@ python utils/make_csv_files.py --dataset_dir [DATASET_DIR]
 
 # make configuration files
 python utils/make_config.py --root_dir ./result/50salads --dataset 50salads --split 1 2 3 4 5
-python utils/make_config.py --root_dir ./result/gtea --dataset gtea --split 1 2 3 4 5
-python utils/make_config.py --root_dir ./result/breakfast --dataset breakfast --split 1 2 3 4 5
+python utils/make_config.py --root_dir ./result/gtea --dataset gtea --split 1 2 3 4
+python utils/make_config.py --root_dir ./result/breakfast --dataset breakfast --split 1 2 3 4
 
 # 50salads dataset
 # training
