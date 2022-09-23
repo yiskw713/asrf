@@ -58,7 +58,7 @@ pipdeptree==0.13.2
 prettytable==0.7.2
 prometheus-client==0.7.1
 prompt-toolkit==2.0.9
-protobuf==3.9.1
+protobuf==3.18.3
 ptyprocess==0.6.0
 pycodestyle==2.5.0
 pyflakes==2.1.1
