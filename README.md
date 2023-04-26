@@ -98,13 +98,13 @@ Please run the following command. `[DATASET_DIR]` is the path to your dataset di
 
     ```bash
     python train.py ./result/50salads/dataset-50salads_split-1/config.yaml
-    python evaluate.py ./result/50salads/dataset-50salads_split-1/config.yaml test
+    python evaluate.py ./result/50salads/dataset-50salads_split-1/config.yaml
     ```
 
 1. You can also save model predictions as numpy array by running:
 
     ```bash
-    python save_pred.py ./result/50salads/dataset-50salads_split-1/config.yaml test
+    python save_pred.py ./result/50salads/dataset-50salads_split-1/config.yaml
     ```
 
 1. If you want to visualize the saved model predictions, please run:
